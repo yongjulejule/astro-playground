@@ -1,12 +1,16 @@
 # Astro 
 
-- 파일을 만들면 호스팅이 된다.
-- 마크다운으로 페이지를 만들 수 있다. (css 직접 만져야함)
+- 장점
+  - 파일을 만들면 호스팅이 된다.
+  - 마크다운으로 페이지를 만들 수 있다. (css 직접 만져야함)
+- 단점
+  - .astro 라는 확장자 때문인지 IDE 가 많이 혼란스러워 한다.
+  - 코파일럿이 자꾸 리액트 코드를 추천해준다.
 
 # Astro Starter Kit: Basics
 
 ```
-npm create astro@latest -- --template basics
+pnpm create astro@latest
 ```
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
@@ -32,6 +36,7 @@ Inside of your Astro project, you'll see the following folders and files:
 │   │   └── Layout.astro
 │   └── pages/
 │       └── index.astro
+│       └── 어쩌구.md
 └── package.json
 ```
 
