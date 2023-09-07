@@ -1,3 +1,8 @@
+# Astro 
+
+- 파일을 만들면 호스팅이 된다.
+- 마크다운으로 페이지를 만들 수 있다. (css 직접 만져야함)
+
 # Astro Starter Kit: Basics
 
 ```
